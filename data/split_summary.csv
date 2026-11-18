@@ -1,0 +1,4 @@
+Split,Images,Patients,Pneumonia_Images,Pneumonia_Rate_%
+test,16374,4621,193,1.18
+train,78921,21563,952,1.21
+validation,16825,4621,208,1.24

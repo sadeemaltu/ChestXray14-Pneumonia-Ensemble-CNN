@@ -1,0 +1,12 @@
+{
+    "dataset": "NIH ChestX-ray14",
+    "target": "Pneumonia label present vs absent",
+    "seed": 42,
+    "split_method": "Patient-level stratified split",
+    "image_size": 224,
+    "normalization": "ImageNet mean and standard deviation",
+    "classes": [
+        "Pneumonia label absent",
+        "Pneumonia label present"
+    ]
+}
