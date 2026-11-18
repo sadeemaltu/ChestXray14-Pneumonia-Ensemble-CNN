@@ -1,0 +1,9 @@
+"Metric (test set, n=16,374, 193 positive)",ResNet18,DenseNet121,Ensemble
+AUROC (95% CI),0.679 (0.642–0.717),0.683 (0.644–0.723),0.705 (0.668–0.743)
+AP (95% CI),0.023 (0.017–0.037),0.021 (0.016–0.028),0.023 (0.018–0.031)
+Accuracy,0.947,0.943,0.933
+Precision,0.023,0.029,0.028
+Recall (sensitivity),0.083,0.119,0.140
+Specificity,0.957,0.953,0.943
+F1,0.035,0.047,0.047
+Threshold (from validation),0.755,0.732,1.336

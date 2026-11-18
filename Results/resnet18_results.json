@@ -1,0 +1,35 @@
+{
+  "cfg": {
+    "seed": 42,
+    "image_size": 224,
+    "batch_size": 64,
+    "epochs": 15,
+    "lr": 0.0001,
+    "weight_decay": 0.0001,
+    "pretrained": true,
+    "imbalance": "pos_weight",
+    "augment_flip": true,
+    "select_metric": "ap",
+    "patience": 4,
+    "num_workers": 2
+  },
+  "threshold": 0.7549149990081787,
+  "best_epoch": 4,
+  "selection_metric": "ap",
+  "n_params": 11177025,
+  "pos_weight": 81.90020751953125,
+  "test_metrics": {
+    "auroc": 0.6789236272440042,
+    "ap": 0.02334911220556632,
+    "threshold": 0.7549149990081787,
+    "precision": 0.02250351617440225,
+    "recall_sensitivity": 0.08290155440414508,
+    "specificity": 0.9570483900871393,
+    "f1": 0.035398230088495575,
+    "accuracy": 0.946744839379504,
+    "tp": 16,
+    "fp": 695,
+    "tn": 15486,
+    "fn": 177
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "chosen_resnet18_weight": 0.5,
+  "best_weight_in_sample": 0.8,
+  "standardisation_constants": {
+    "res": [
+      -0.852225387926419,
+      1.2678704499169557
+    ],
+    "dn": [
+      -0.025424331846146758,
+      0.67939422942502
+    ]
+  },
+  "thresholds_max_f1": {
+    "ResNet18": 0.7549149990081787,
+    "DenseNet121": 0.7319465279579163,
+    "Ensemble": 1.3356789654396364
+  },
+  "thresholds_recall80": {
+    "ResNet18": 0.25054586,
+    "DenseNet121": 0.4706868827342987,
+    "Ensemble": -0.0071558791946043365
+  },
+  "spearman_between_models": {
+    "validation": 0.5620460162922394,
+    "test": 0.5513947759677668
+  },
+  "n_bootstrap": 2000,
+  "seed": 42
+}
