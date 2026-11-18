@@ -1,0 +1,4 @@
+model,Recall (sensitivity),Specificity,Precision,TP,FP,FN,TN
+ResNet18,0.829,0.447,0.018,160,8956,33,7225
+DenseNet121,0.845,0.451,0.018,163,8880,30,7301
+Ensemble,0.798,0.524,0.02,154,7695,39,8486

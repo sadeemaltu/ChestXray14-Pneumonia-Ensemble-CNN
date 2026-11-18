@@ -1,0 +1,19 @@
+Model,Parameter,Optimal value chosen
+ResNet18,Learning rate,"1e-4 (AdamW, cosine schedule)"
+ResNet18,Weight decay,1e-4
+ResNet18,Batch size,64
+ResNet18,Epochs / early stopping,"15 max, patience 4 → stopped at 8, best epoch 4"
+ResNet18,Class imbalance,pos_weight = 81.9
+ResNet18,Augmentation,Horizontal flip (p = 0.5)
+ResNet18,Decision threshold,0.7549 (max validation F1)
+DenseNet121,Learning rate,3e-5 (AdamW) — chosen over 1e-4
+DenseNet121,Weight decay,0.01
+DenseNet121,Batch size,16
+DenseNet121,Epochs,"3, best epoch 1"
+DenseNet121,Class imbalance,pos_weight = 81.9
+DenseNet121,Augmentation,Horizontal flip (p = 0.5)
+DenseNet121,Decision threshold,0.7319 (max validation F1)
+Ensemble,Combination rule,Weighted average of standardised logits
+Ensemble,ResNet18 weight w,0.50 (DenseNet121 = 0.50)
+Ensemble,Standardisation,Validation mean/SD of each model's logit
+Ensemble,Decision threshold,1.3357 (max validation F1)

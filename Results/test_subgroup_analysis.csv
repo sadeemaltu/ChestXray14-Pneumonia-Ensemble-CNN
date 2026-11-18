@@ -1,0 +1,9 @@
+attribute,group,images,positives,AUROC,recall,reliable
+View Position,AP,6424,105,0.669,0.133,True
+View Position,PA,9950,88,0.652,0.023,True
+Patient Gender,F,7030,87,0.695,0.034,True
+Patient Gender,M,9344,106,0.679,0.123,True
+Age group,<18,724,12,0.552,0.083,True
+Age group,18-39,4250,60,0.63,0.017,True
+Age group,40-59,7320,70,0.713,0.114,True
+Age group,60+,4077,51,0.701,0.118,True
